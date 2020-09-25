@@ -1,0 +1,33 @@
+.logo{
+    background: #FFFFFF;
+    Width:120.26px;
+    Height:56px;
+    Top : 35px;
+    Left: 135px;
+    margin: 15px  60px 15px 135px ; 
+}
+.menu{
+    margin-left: 20px;
+    display: inline-flex;
+    margin-left: 100px;
+}
+.menu .menuItem{ 
+    margin-left: 20px;
+}
+/* .header{
+    border: 4px solid black;
+    height: 500px;
+    background-position: center center;
+    background-size: 100% 100%;
+} */
+
+.banner{
+    /* background-image: url(../../Image//Rectangle\ 1.png); */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../../Image//Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1500px;
+    background-attachment: fixed;
+    z-index: -1;
+}
